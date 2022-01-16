@@ -1,5 +1,5 @@
 /* font  */
-@import url('https://fonts.googleapis.com/css2?family=PT+Sans&family=Poppins:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Montserrat:wght@300;400&family=PT+Sans&family=Poppins:wght@300;400;500&display=swap');
 *{
     margin: 0;
     padding: 0;
@@ -75,11 +75,11 @@ nav{
     margin-top: 20px;
     margin-bottom: 30px;
 }
-.main-button{
+.main-button {
     display: inline-flex;
-    font-size: 15px;
+    font-size: 16px;
     font-weight: 550;
-    padding: 10px 28px;  
+    padding: 8px 25px;  
     outline: none;
     border: none;
     border-radius: 25px;
@@ -94,6 +94,15 @@ nav{
 .main-button:active{
     top: 5px;
     box-shadow: 0 2px 0 #6cb1c0 ;
+}
+.main-button a{
+    text-decoration: none;
+    color: whitesmoke;
+    margin: 5px 5px; 
+}
+.button-icon{
+    margin-top: 5px;
+    margin-left: 10px;
 }
 
 /* --------------------
@@ -111,7 +120,7 @@ nav{
 }
 .product {
     width: 335px;
-    height: 415px;
+    height: 418px;
     border: 1px solid white;
     border-radius: 10px ;
     box-shadow: -5px 5px 50px rgba(184, 182, 182, 0.74);
@@ -129,21 +138,36 @@ nav{
     line-height: 1.8;
     margin-left: 10px;
 }
-.text{
+.product-title{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    font-size: 23px;
+}
+.product-price{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+}
+.mid-title{
     color: #3A3A3A ;
-    font-size: 26px;
+    font-size: 28px;
     text-align: center;
-    padding: 40px 0;
+    padding-bottom: 40px;
+    padding-left: 20px;
 }
 .filled{
     color: rgb(248, 180, 9);
 }
+span{
+    color: #292929 ;
+    font-size: 14px;
+    margin-left: 8px;
+}
 .half{
     color: goldenrod;
 }
-small{
-    color: #3A3A3A;
-    overflow-wrap: break-word;
+.ratting{
+    font-size: 11px;
 }
 .product-info{
     color: #3A3A3A;
