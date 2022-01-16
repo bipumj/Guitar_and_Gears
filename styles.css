@@ -190,9 +190,12 @@ span{
     border-radius: 10px;
     margin-right: 80px;
 }
+.feature-info{
+    margin-bottom: 25px;
+}
 .feature-info h1{
     color: #1b1b1b;
-    font-size: 45px;
+    font-size: 48px;
 }
 .feature-info p{
     color: #3A3A3A;
@@ -201,7 +204,7 @@ span{
 
 /* ---footer section---- */
 footer{
-    background-color: #072227;
+    background-color: #042d35;
     color: whitesmoke;
     text-align: center;
     padding: 40px 0;
@@ -220,4 +223,7 @@ footer p{
     font-size: 22px;
     padding: 12px 5px 0 15px;
     cursor: pointer;
+}
+.icon-part a{
+    text-decoration: none;
 }
