@@ -129,6 +129,10 @@ nav{
     border-radius: 10px ;
     box-shadow: -5px 5px 50px rgba(184, 182, 182, 0.74);
 }
+.product:hover{
+    transform: scale(1.1);
+    transition: transform 1s ease-in-out ;
+}
 .thumbnail img{
     width: 316px;
     height: 215px;
@@ -207,7 +211,7 @@ span{
 
 /* ---footer section---- */
 footer{
-    background-color: #042d35;
+    background-color: #053f4b;
     color: whitesmoke;
     text-align: center;
     padding: 40px 0;
