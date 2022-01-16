@@ -57,7 +57,7 @@ nav{
     align-items: center;
     justify-content: center;
     padding-top: 50px ;
-    padding-bottom: 56px;
+    padding-bottom: 60px;
     justify-items: end;
 }
 .title-text{
@@ -66,11 +66,11 @@ nav{
     align-items: flex-start;
 }
 .title-text h1{
-    font-size: 60px;
-    color: #3A3A3A;
+    font-size: 50px;
+    color: #313131;
 }
 .title-text p{
-    font-size: 18px;
+    font-size: 16px;
     color: #313131;
     margin-top: 20px;
     margin-bottom: 30px;
@@ -153,7 +153,6 @@ nav{
     font-size: 28px;
     text-align: center;
     padding-bottom: 40px;
-    padding-left: 20px;
 }
 .filled{
     color: rgb(248, 180, 9);
