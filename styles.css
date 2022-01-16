@@ -79,7 +79,7 @@ nav{
     display: inline-flex;
     font-size: 16px;
     font-weight: 550;
-    padding: 8px 25px;  
+    padding: 7px 25px;  
     outline: none;
     border: none;
     border-radius: 25px;
@@ -109,6 +109,8 @@ nav{
     transition: transform 2s ease-in-out ;
 }
 
+
+
 /* --------------------
 ===== Products =======
 ---------------------- */
@@ -128,6 +130,7 @@ nav{
     border: 1px solid white;
     border-radius: 10px ;
     box-shadow: -5px 5px 50px rgba(184, 182, 182, 0.74);
+    cursor: pointer;
 }
 .product:hover{
     transform: scale(1.1);
@@ -180,6 +183,22 @@ span{
     color: #3A3A3A;
     font-size: 14px;
 }
+.see-more h3{
+   text-align: right;
+   padding: 10px 100px 10px 10px;
+}
+.see-more a{
+    text-align: right;
+    color: #51b4ca;
+    text-decoration: none;
+}
+.see-more h3:hover{
+    transform: translate( 5px,10%);
+}
+
+
+
+
 
 /* ---feature section--- */
 
@@ -206,7 +225,7 @@ span{
 }
 .feature-info p{
     color: #3A3A3A;
-    padding: 15px 0;
+    padding: 18px 0;
 }
 
 /* ---footer section---- */
