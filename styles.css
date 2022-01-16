@@ -104,6 +104,10 @@ nav{
     margin-top: 5px;
     margin-left: 10px;
 }
+.photo-frame:hover{
+    transform: scale(1.2) rotate(-10deg);
+    transition: transform 2s ease-in-out ;
+}
 
 /* --------------------
 ===== Products =======
